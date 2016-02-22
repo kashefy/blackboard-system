@@ -1,10 +1,7 @@
 classdef SourceNumberKS < AuditoryFrontEndDepKS
     % SourceNumberKS predicts the number of perceived sources.
     %
-    % At the moment this is only a dummy implementation that will always return 5.
-    %
-    % In the long run most probably this function will compare two signals and judge which
-    % of the two has higher audio quality
+    % At the moment this is a dummy function and will always return 1.
 
     properties (SetAccess = private)
         auditoryFrontEndParameter;
