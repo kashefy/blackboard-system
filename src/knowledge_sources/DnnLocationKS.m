@@ -3,6 +3,9 @@ classdef DnnLocationKS < AuditoryFrontEndDepKS
     % generates SourcesAzimuthsDistributionHypothesis when provided with spatial
     % observation
 
+    % TODO: make this KS work with synthesized sound sources, see qoe_localisation folder
+    % in TWOEARS/examples repo
+    
     properties (SetAccess = private)
         angles;                     % All azimuth angles to be considered
         DNNs;                       % Learned deep neural networks
